@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            
+            form{
+                background-color: whitesmoke;
+                height: 55%;
+                width: 20%;
+                padding: 35px;
+                border-radius: 10px;
+               
+            }
+            input{
+                padding: 5px;
+                margin: 25px;
+                height: 30px;
+                width: 350px;
+                border:none;
+                margin-left:-13px;
+            }
+            .button{
+                background-color: blue;
+                width: 100%;
+                height: 30px;
+                margin-left:-13px;
+                border: none;
+                color: white;
+                font-size: 17px;
+                border-radius: 5px;
+               
+            }
+            .tool{
+                
+                margin-left: -300px;
+            }
+            p{
+                font-size: 25px;
+            }
+            #output{
+                font-size: 15px;
+                color: red;
+              
+
+            }
+           #out{
+            font-size: 15px;
+                color: red;
+
+            }
+        </style>
+       
+        
+    </head>
+    <body>
+       <div>
+            <center>
+        <form action=""method="POST">
+            <p>Sign Up</p>
+           <div class="tool">Name:</div>
+            <input type="text" placeholder="Enter your fullname"id="fullname"><br><br>
+            <p id="output"></p>
+            <div class="tool">Email:</div>
+            <input type="email" placeholder="Enter your Email address"id="email" ><br><br>
+            <p id="out"></p>
+           <h1 class="button" onclick="block();">Subscribe</h1>
+        </form>
+        </center>
+        </div>
+        <script src="home.js"></script>
+    </body>
+</html>
